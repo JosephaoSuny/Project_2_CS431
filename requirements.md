@@ -1,1 +1,1 @@
-Elixir requires the `Erlang` virtual machine to run and install
+Elixir requires the `Erlang` virtual machine to run and install, but that is it.
