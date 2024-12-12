@@ -1,0 +1,1 @@
+Elixir requires the `Erlang` virtual machine to run and install
