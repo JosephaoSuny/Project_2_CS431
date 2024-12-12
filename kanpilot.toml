@@ -1,0 +1,39 @@
+name = "project"
+skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
+skipFiles = [ ".gitignore", "package.json" ]
+
+[[processes]]
+id = "process1"
+name = "To Do"
+tasks = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
+
+  [[processes.tasks]]
+  id = "task2"
+  title = "Code examples of functions using elixir"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "task1"
+  title = "Markdown files for the installation, usage, and plan for elixir"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
